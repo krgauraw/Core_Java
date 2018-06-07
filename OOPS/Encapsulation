@@ -1,0 +1,38 @@
+Encapsulation in java is a process of wrapping code and data together into a single unit, for example capsule i.e. 
+mixed of several medicines.
+
+We can create a fully encapsulated class in java by making all the data members of the class private. 
+Now we can use setter and getter methods to set and get the data in it.
+
+The Java Bean class is the example of fully encapsulated class.
+
+Advantage of Encapsulation in java::
+
+By providing only setter or getter method, you can make the class read-only or write-only.
+
+It provides you the control over the data. Suppose you want to set the value of id i.e. greater than 100 only, 
+you can write the logic inside the setter method.
+
+
+2nd way of defining:
+
+Encapsulation is one of the four fundamental OOP concepts. The other three are inheritance, polymorphism, and abstraction.
+
+Encapsulation in Java is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single 
+unit. In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the 
+methods of their current class. Therefore, it is also known as data hiding.
+
+To achieve encapsulation in Java −
+	1. Declare the variables of a class as private.
+	2. Provide public setter and getter methods to modify and view the variables values.
+	
+The public setXXX() and getXXX() methods are the access points of the instance variables of the EncapTest class. 
+Normally, these methods are referred as getters and setters. Therefore, any class that wants to access the variables should 
+access them through these getters and setters.
+
+Benefits of Encapsulation:-
+
+	1. The fields of a class can be made read-only or write-only.
+	2. A class can have total control over what is stored in its fields.
+	3. The users of a class do not know how the class stores its data. A class can change the data type of a field and 
+	   users of the class do not need to change any of their code.
