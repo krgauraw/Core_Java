@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>demo.core.java</groupId>
+    <artifactId>core-java</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>Collection_API</module>
+        <module>DesignPattern</module>
+        <module>ExceptionHandling</module>
+        <module>IO</module>
+        <module>Lara_Basic_Code</module>
+        <module>Logical_Programs</module>
+        <module>Networking</module>
+        <module>Object</module>
+        <module>OOPS</module>
+        <module>String</module>
+    </modules>
+
+</project>
